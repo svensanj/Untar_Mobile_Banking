@@ -23,10 +23,14 @@ class _BodyState extends State<Body> {
               child: Center(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    Image.asset(
-                      "assets/images/logo.png",
-                      width: 250.0,
+                  children: [
+                    Text(
+                      "Bank Ratnu",
+                      style: TextStyle(
+                        fontSize: 50.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
                     ),
                   ],
                 ),

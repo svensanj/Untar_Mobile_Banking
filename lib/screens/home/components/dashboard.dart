@@ -49,11 +49,15 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                       child: Center(
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.center,
-                          children: <Widget>[
-                            Image.asset(
-                              "assets/images/logo.png",
-                              width: 250.0,
-                            ),
+                          children: [
+                            Text(
+                              "Bank Ratnu",
+                              style: TextStyle(
+                                fontSize: 50.0,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black,
+                              ),
+                            )
                           ],
                         ),
                       )),
@@ -87,7 +91,7 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                                     height: 10.0,
                                   ),
                                   Text(
-                                    "Info Saldo",
+                                    "Saldo",
                                     style: TextStyle(
                                         color: Colors.black,
                                         fontWeight: FontWeight.bold,
@@ -98,7 +102,6 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                             )),
                           ),
                         ),
-
                         Card(
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8)),
@@ -133,7 +136,6 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                             )),
                           ),
                         ),
-
                         Card(
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8)),
