@@ -25,11 +25,19 @@ class _BodyState extends State<Body> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Bank Ratnu",
+                      "Bank",
                       style: TextStyle(
                         fontSize: 50.0,
                         fontWeight: FontWeight.bold,
-                        color: Colors.black,
+                        color: Colors.blue[600],
+                      ),
+                    ),
+                    Text(
+                      "💲Ratnu💲",
+                      style: TextStyle(
+                        fontSize: 70.0,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.blue[800],
                       ),
                     ),
                   ],
