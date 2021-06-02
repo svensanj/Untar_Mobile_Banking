@@ -16,10 +16,10 @@ class Body extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(height: SizeConfig.screenHeight * 0.04),
-                Text("Register Account", style: headingStyle),
+                Text("Daftar Akun", style: headingStyle),
                 SizedBox(height: SizeConfig.screenHeight * 0.01),
                 Text(
-                  "Complete your details",
+                  "Isi Dengan Lengkap",
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: SizeConfig.screenHeight * 0.09),
@@ -28,7 +28,7 @@ class Body extends StatelessWidget {
                 SizedBox(height: getProportionateScreenHeight(40)),
                 SizedBox(height: getProportionateScreenHeight(20)),
                 Text(
-                  'By continuing your confirm that you agree \nwith our Term and Condition',
+                  'Dengan Melanjutkan Anda Sudah Menyetujui \nDengan Syarat dan Ketentuan Kami',
                   textAlign: TextAlign.center,
                   style: Theme.of(context).textTheme.caption,
                 )

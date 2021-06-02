@@ -9,7 +9,7 @@ class SignInScreen extends StatelessWidget {
     SizeConfig().init(context);
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sign In"),
+        title: Text("Masuk"),
       ),
       body: Body(),
     );

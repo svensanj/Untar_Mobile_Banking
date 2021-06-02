@@ -38,7 +38,7 @@ class _DashboardHomeScreenState extends State<DashboardHomeScreen> {
                           icon: Icon(
                             Icons.logout,
                           ),
-                          color: Colors.red,
+                          color: Colors.black,
                           iconSize: 40.0,
                         ),
                       ),

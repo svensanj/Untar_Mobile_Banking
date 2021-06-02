@@ -13,7 +13,7 @@ class Body extends StatelessWidget {
         children: [
           SizedBox(height: 30),
           TransferMenu(
-            text: "Rekening Bank Untar",
+            text: "Rekening Bank Ratnu",
             press: () =>
                 {Navigator.pushNamed(context, BankUntarScreen.routeName)},
           ),

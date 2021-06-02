@@ -20,7 +20,7 @@ class Body extends StatelessWidget {
               height: 20,
             ),
             Text(
-              'Rp. 10.000.000',
+            'Rp. 9.999.999.999.999.999',
               style: TextStyle(fontSize: 30.0),
             )
           ],

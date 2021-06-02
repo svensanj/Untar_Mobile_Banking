@@ -18,7 +18,7 @@ class Body extends StatelessWidget {
             child: Column(
               children: [ 
                 SizedBox(height: SizeConfig.screenHeight * 0.03),
-                Text("Rekening Bank Untar", style: heading1),
+                Text("Rekening Bank Ratnu", style: heading1),
                 SizedBox(height: SizeConfig.screenHeight * 0.06),
                 TransferForm(),
                 SizedBox(height: getProportionateScreenHeight(30)),

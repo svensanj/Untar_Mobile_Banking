@@ -63,7 +63,7 @@ class _BodyState extends State<Body> {
                       return null;
                     },
                     decoration: InputDecoration(
-                        labelText: "Pin Lama Bank Untar",
+                        labelText: "Pin Lama ",
                         hintText: " Input 6 Digit"),
                   ),
                   SizedBox(height: getProportionateScreenHeight(40)),

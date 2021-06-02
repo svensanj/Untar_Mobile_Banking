@@ -66,7 +66,7 @@ class _SignFormState extends State<SignForm> {
           .logIn(_authData['email'], _authData['password']);
       Navigator.of(context).pushReplacementNamed(HomeScreen.routeName);
     } catch (error) {
-      var errorMessage = 'Authentication Failed. Please try again later.';
+      var errorMessage = 'Autentikasi Gagal , Silahkan Coba Lagi.';
       _showErrorDialog(errorMessage);
     }
   }
@@ -85,7 +85,7 @@ class _SignFormState extends State<SignForm> {
           FormError(errors: errors),
           SizedBox(height: getProportionateScreenHeight(40)),
           DefaultButton(
-            text: "Continue",
+            text: "Lanjutkan",
             press: () {
               _submit();
             },
@@ -111,13 +111,13 @@ class _SignFormState extends State<SignForm> {
       },
       validator: (value) {
         if (value.isEmpty || value.length <= 5) {
-          return 'invalid password';
+          return 'password salah';
         }
         return null;
       },
       decoration: InputDecoration(
         labelText: "Password",
-        hintText: "Enter your password",
+        hintText: "Masukkan Password",
         floatingLabelBehavior: FloatingLabelBehavior.always,
         suffixIcon: CustomSurffixIcon(svgIcon: "assets/icons/Lock.svg"),
       ),
@@ -140,13 +140,13 @@ class _SignFormState extends State<SignForm> {
       },
       validator: (value) {
         if (value.isEmpty || !value.contains('@')) {
-          return 'invalid email';
+          return 'email salah';
         }
         return null;
       },
       decoration: InputDecoration(
         labelText: "Email",
-        hintText: "Enter your email",
+        hintText: "Masukkan Email",
         floatingLabelBehavior: FloatingLabelBehavior.always,
         suffixIcon: CustomSurffixIcon(svgIcon: "assets/icons/Mail.svg"),
       ),

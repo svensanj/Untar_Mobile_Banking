@@ -29,14 +29,14 @@ class PembayaranMenu extends StatelessWidget {
               child: Text(
                 text,
                 style: TextStyle(
-                    color: Colors.red[900],
+                    color: Colors.blue[900],
                     fontWeight: FontWeight.bold,
                     fontSize: 16),
               ),
             ),
             Icon(
               Icons.arrow_forward_ios,
-              color: Colors.red[900],
+              color: Colors.blue[900],
               size: 26,
             ),
           ],
