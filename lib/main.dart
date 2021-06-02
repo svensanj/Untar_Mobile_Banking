@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:untar_mobile_banking/screens/splash/splash_screen.dart';
+import 'package:untar_mobile_banking/screens/sign_in/sign_in_screen.dart';
 import 'package:provider/provider.dart';
 import 'models/authentication.dart';
 import 'routes.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: theme(),
         // home: SplashScreen(),
-        initialRoute: SplashScreen.routeName,
+        initialRoute: SignInScreen.routeName,
         routes: routes,
       ),
     );
