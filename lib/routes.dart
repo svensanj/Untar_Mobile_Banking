@@ -13,18 +13,16 @@ import 'screens/profile/profile_screen.dart';
 import 'screens/pulsa/pulsa_screen.dart';
 import 'screens/sign_in/sign_in_screen.dart';
 import 'screens/sign_up/sign_up_screen.dart';
-import 'screens/splash/splash_screen.dart';
 import 'screens/transfer/transfer_screen.dart';
 import 'screens/untar/untar_screen.dart';
 
 final Map<String, WidgetBuilder> routes = {
-  SplashScreen.routeName: (context) => SplashScreen(),
   SignInScreen.routeName: (context) => SignInScreen(),
   SignUpScreen.routeName: (context) => SignUpScreen(),
   HomeScreen.routeName: (context) => HomeScreen(),
   InfoSaldoScreen.routeName: (context) => InfoSaldoScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(),
-  GantiPinScreen.routeName:(context) => GantiPinScreen(),
+  GantiPinScreen.routeName: (context) => GantiPinScreen(),
   TransferScreen.routeName: (context) => TransferScreen(),
   BankUntarScreen.routeName: (context) => BankUntarScreen(),
   BankLainScreen.routeName: (context) => BankLainScreen(),
